@@ -12,7 +12,7 @@ texts = ["💭 Ты читаешь статус и не замечаешь ка�
          "➡️ Мой канал в тг https://t.me/defgetstart",
          "🔝 Ты читаешь этот статус а значит ты топ"]
 
-vk_session = vk_api.VkApi('+79205305529', '135bishopKUN')
+vk_session = vk_api.VkApi('ytel', 'ypass')
 vk_session.auth()
 
 vk = vk_session.get_api()
